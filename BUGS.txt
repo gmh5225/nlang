@@ -1,0 +1,4 @@
+Reporting Nlang bugs
+====================
+
+Please go to https://github.com/nlangorg/nlang/issues for bug reporting.
