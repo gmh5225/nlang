@@ -1,0 +1,16 @@
+#*===- .mailmap - Map authors' and committers' names and email addresses --===*#
+#*                                                                            *#
+#* Copyright (c) 2024 The Nlang contributors.                                 *#
+#* Visit CONTRIBUTORS.txt for the list of Nlang authors.                      *#
+#*                                                                            *#
+#* Part of the Nlang compiler, under the Apache License v2.0.                 *#
+#* See LICENSE.txt for license information.                                   *#
+#* SPDX-License-Identifier: Apache-2.0                                        *#
+#*                                                                            *#
+#*===----------------------------------------------------------------------===*#
+#*                                                                            *#
+#* This file maps authors' and committers' names and email addresses.         *#
+#*                                                                            *#
+#*===----------------------------------------------------------------------===*#
+
+Wwqfsp <wwqfsp@gmail.com>
