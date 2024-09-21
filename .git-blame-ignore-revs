@@ -1,0 +1,17 @@
+#|===--- .git-blame-ignore-revs - Ignore configurations for Git Blame -----===|#
+#|
+#| Copyright (c) 2024 The Nlang contributors.
+#| Visit CONTRIBUTORS.txt for the list of Nlang authors.
+#|
+#| Part of the Nlang compiler, under the Apache License v2.0.
+#| See LICENSE.txt for license information.
+#| SPDX-License-Identifier: Apache-2.0
+#|
+#|===----------------------------------------------------------------------===|#
+#|
+#| This file lists the commits that are ignored by Git Blame.
+#|
+#| Execute "git config blame.ignoreRevsFile .git-blame-ignore-revs" to set this
+#| as the default ignore file for Blame.
+#|
+#|===----------------------------------------------------------------------===|#

@@ -1,0 +1,80 @@
+#|===--- .gitignore - Ignore configurations for Git -----------------------===|#
+#|                                                                            |#
+#| Copyright (c) 2024 The Nlang contributors.                                 |#
+#| Visit CONTRIBUTORS.txt for the list of Nlang authors.                      |#
+#|                                                                            |#
+#| Part of the Nlang compiler, under the Apache License v2.0.                 |#
+#| See LICENSE.txt for license information.                                   |#
+#| SPDX-License-Identifier: Apache-2.0                                        |#
+#|                                                                            |#
+#|===----------------------------------------------------------------------===|#
+#|                                                                            |#
+#| This file configures what Git must ignore.                                 |#
+#|                                                                            |#
+#|===----------------------------------------------------------------------===|#
+
+#|===----------------------------------------------------------------------===|#
+#| File extensions                                                            |#
+#|===----------------------------------------------------------------------===|#
+
+# Temporary files created by editors.
+*~
+
+# Merge files created by Git.
+*.orig
+
+# Reject files created by Patch.
+*.rej
+
+# Byte compiled Python modules
+*.pyc
+
+# Swap files created by Vim.
+.*.sw?
+.sw?
+
+# OS X specific files
+.DS_store
+
+# Git users
+.gitusers
+
+# Cscope files
+cscope.files
+cscope.out
+
+# Clangd index
+.clangd
+
+#|===----------------------------------------------------------------------===|#
+#| CMake files                                                                |#
+
+# User-specified CMake presets
+CMakeUserPresets.json
+
+# VS built-in CMake configuration
+/CMakeSettings.json
+
+CMakeCache.txt
+
+CMakeFiles
+
+#|===----------------------------------------------------------------------===|#
+#| Directories                                                                |#
+#|                                                                            |#
+#| Note that trailing "/"s must not be added because they skip symlinks.      |#
+#|===----------------------------------------------------------------------===|#
+
+# VSCode and VS configuration directories
+.vscode
+.vs
+
+# CMake build directories
+/build*
+/b*
+
+# CLion configuration directory
+/.idea
+
+# Clangd index
+.cache
