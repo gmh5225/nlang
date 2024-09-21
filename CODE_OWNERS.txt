@@ -1,0 +1,14 @@
+List of Nlang code owners
+=========================
+
+This file lists the people who are responsible for ensuring that patches and
+issues for a particular part of Nlang are reviewed. They decide which patch
+goes in or not.
+
+The list is sorted by Github usernames and it is used by NlangBot. Each entry
+can have a name (N), Github username (G), email address (E), and a description
+(D), but only the (G), (D), and (E) fields are required.
+
+G: Wwqfsp
+E: wwqfsp@gmail.com
+D: Everything not covered by someone else.
