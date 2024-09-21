@@ -1,0 +1,17 @@
+List of Nlang authors
+=====================
+
+This file lists the individuals who have contributed to the source code of the
+Nlang compiler.
+
+The list is sorted by Github usernames. Each entry can have a name (N), Github
+username (G), and email address (E), but only the (G) and (E) fields are
+required.
+
+G: Wwqfsp
+E: wwqfsp@gmail.com
+
+Copyright holders
+=================
+
+The Nlang contributors.
