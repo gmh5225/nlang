@@ -1,0 +1,81 @@
+#/===--- .clang-tidy - Configurations for Clang-Tidy -----------*- Yaml -*-===\#
+#|
+#| Copyright (c) 2024 The Nlang contributors.
+#| Visit CONTRIBUTORS.txt for the list of Nlang authors.
+#|
+#| Part of the Nlang compiler, under the Apache License v2.0.
+#| See LICENSE.txt for license information.
+#| SPDX-License-Identifier: Apache-2.0
+#|
+#|===----------------------------------------------------------------------===|#
+#|
+#| This file configures Clang-Tidy.
+#|
+#| See https://clang.llvm.org/extra/clang-tidy for suppressing undesired
+#| diagnostics.
+#|
+#\===-----------------------------------------------------------+- Yaml -+-===/#
+
+#/===----------------------------------------------------------------------===\#
+#| Checks
+#\===----------------------------------------------------------------------===/#
+
+Checks: "-*,bugprone-*,clang-diagnostic-*,llvm-*,misc-*,-misc-no-recursion,
+  -misc-non-private-member-variables-in-classes,-misc-use-anonymous-namespace,
+  performace-*,readability-identifier-naming,readability-duplicate-include"
+
+#/===----------------------------------------------------------------------===\#
+#| Check options
+#\===----------------------------------------------------------------------===/#
+
+CheckOptions:
+  - key:   readability-identifier-naming.AggressiveDependentMemberLookup
+    value: 1
+
+  - key:   readability-identifier-naming.ClassCase
+    value: CamelCase
+
+  - key:   readability-identifier-naming.EnumCase
+    value: CamelCase
+
+  - key:   readability-identifier-naming.FunctionCase
+    value: camelBack
+
+  - key:   readability-identifier-naming.FunctionIgnoredRegexp
+    value: "LLVMFuzzerTestOneInput"
+
+  - key:   readability-identifier-naming.IgnoreMainLikeFunctions
+    value: 1
+
+  - key:   readability-identifier-naming.MacroDefinitionCase
+    value: UPPER_CASE
+
+  - key:   readability-identifier-naming.MemberCase
+    value: CamelCase
+
+  - key:   readability-identifier-naming.NamespaceCase
+    value: lower_case
+
+  - key:   readability-identifier-naming.ParameterCase
+    value: CamelCase
+
+  - key:   readability-identifier-naming.StructCase
+    value: CamelCase
+
+  - key:   readability-identifier-naming.TypeAliasCase
+    value: CamelCase
+
+  - key:   readability-identifier-naming.TypedefCase
+    value: CamelCase
+
+  - key:   readability-identifier-naming.UnionCase
+    value: CamelCase
+
+  - key:   readability-identifier-naming.VariableCase
+    value: CamelCase
+
+  - key:   readability-redundant-member-init.IgnoreBaseInCopyConstructors
+    value: 1
+
+  - key:   modernize-use-default-member-init.UseAssignment
+    value: 1
