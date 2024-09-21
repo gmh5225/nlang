@@ -1,0 +1,7 @@
+Reporting Nlang security issues
+===============================
+
+Nlang is unreleased software in early stages of development,
+therefore vulnerabilities can be safely disclosed publicly.
+
+Please report them at https://github.com/nlangorg/nlang/issues.
